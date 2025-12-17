@@ -1,6 +1,7 @@
 body {
     background-color: rgba(2, 82, 173, 0.801);
     padding: 20px;
+    justify-content: center;
     display: flex;
 }
 
@@ -15,21 +16,65 @@ h1 {
   background-color: white;
   margin: auto;
   width: 100%;
-  height: 500px;
-  max-width: 700px;
-  height: auto;
+  height: 800px;
+  max-width: 1500px;
   aspect-ratio: 7 / 5;
-  display: 1;
     }
 
 #botões {
-    display: 1;
-    margin: 10px;
-
+    flex-direction: column !important;
+    margin: 20px;
+    display: flex;
 }
 
 .container {
+    flex-direction: column;
+    display: flex;
+}
+
+.Canvas2 {
     flex-direction: row;
-    justify-content: space-between;
-    
+    display: flex;
+}
+
+#botões button {
+    margin-bottom: 25px;
+    width: 85px;
+    height: 85px;
+    font-size: 50px;
+    border-radius: 35px;
+}
+
+#botões2 button {
+    margin-top: 15px;
+    margin: 20px;
+    margin-bottom: 170px;
+    width: 90px;
+    height: 90px;
+    font-size: 50px;
+    border-radius: 35px;
+    background-color: rgba(255, 30, 0, 0.356);
+}
+
+#Cima {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ 
+}
+
+#Cima input {
+ height: 60px;
+ width: 100px;
+ margin: 10px;
+}
+
+#Cima label {
+    font-size: 45px;
+    color: white;
+}
+
+.form-control-color {
+    height: 100px;
+    width: 100px;
 }
